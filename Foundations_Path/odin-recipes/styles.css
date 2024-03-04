@@ -1,9 +1,7 @@
-#title {
-    background-color: blue;
-    color: white;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
+/* Main page */
+
+* {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a {
@@ -19,6 +17,46 @@ section {
     align-content: center;
 }
 
+#title {
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Ingredients page */
+
+h1, 
+h3 {
+    font-family: Impact, Helvetica, sans-serif;
+}
+
 li {
     margin-bottom: 10px;
+}
+
+.recipes-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.recipes-subtitle {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+ul strong {
+    color: rgb(239, 117, 36);
+}
+
+.button-back {
+    color: orange;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.p-duration {
+    font-style: italic;
 }
